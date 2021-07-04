@@ -1,0 +1,131 @@
+header {
+	background: #BBBBBB;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+nav ul{
+	display: flex;
+	flex-direction: row;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+.principal{
+	background: white;
+	padding: 20px;
+	border-bottom: #000000 2px solid;
+}
+
+.titulo-centralizado {
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+p {
+	font-size: 18px;
+}
+
+#missao {
+	font-size: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#missao strong{
+	font-weight: bold;
+}
+
+.beneficios {
+	background: white;
+	padding: 20px;
+	justify-items: center;
+}
+
+.beneficios ul {
+	display: flex;
+	vertical-align: top;
+	font-size: 18px;
+}
+
+.itens {
+	font-style: italic;
+	box-sizing: border-box;
+	width: 25%;
+	margin: 0 20px;
+	padding: 15px;
+	border: 2px black solid;
+	border-radius: 20px;
+	align-items: center;
+}
+
+.itens p{
+	font-size: 18px;
+	font-weight: bold;
+	padding: 10px;
+	text-align: center;
+}
+.itens img{
+	box-sizing: border-box;
+	width: 100%;
+	padding-bottom: 20px;
+}
+
+.titulo-ben{
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.itens:hover{
+	border-color: #C78C19;
+}
+
+.itens:hover p{
+	font-size: 40px;
+}
+
+.itens:active{
+	border-color: green;
+}
+
+footer{
+	background: url(imagens/bg.jpg);
+	text-align: center;
+}
+
+.copyright{
+	color: whitesmoke;
+	font-size: 13px;
+	margin-top: 20px;
+}
